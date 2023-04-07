@@ -1,0 +1,13 @@
+.shopping-form {
+
+  &__inputs {
+    margin-bottom: 1.5rem;
+  }
+
+  &__button {
+    &:not(:last-child) {
+      margin-right: 1.5rem;
+    } 
+  }
+
+}
