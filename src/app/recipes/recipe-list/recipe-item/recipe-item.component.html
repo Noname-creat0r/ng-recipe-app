@@ -1,16 +1,16 @@
 <a
   href="#"
-  class="list-group-item"
+  class="list-group-item recipe-item"
   (click)="onRecipeSelected(recipe)">
   <span class="d-flex align-items-lg-center my-3">
     <span class="d-flex flex-column mx-2">
       <h4 class="list-group-item-heading ">{{recipe.title}}</h4>
-      <p class="list-group-item-text">{{recipe.description}}</p>
+      <p class="list-group-item-text recipe-item__description">{{recipe.description}}</p>
     </span>
     <img
       [src]="recipe.imagePath"
       alt="{{recipe.title}}img"
-      class="img rounded-2"
+      class="img rounded-2 recipe-item__img"
       style="max-height: 100px; order: -1">
   </span>
 </a>
