@@ -1,6 +1,7 @@
 <a
   class="list-group-item recipe-item"
-  (click)="onRecipeSelected(recipe)">
+  [routerLink]="[index]"
+  routerLinkActive="active" >
   <span class="d-flex align-items-lg-center my-3">
     <span class="d-flex flex-column mx-2">
       <h4 class="list-group-item-heading ">{{recipe.title}}</h4>
